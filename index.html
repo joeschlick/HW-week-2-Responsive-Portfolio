@@ -11,22 +11,41 @@
     
     <title>Joe Schlick - About Me</title>
 
-    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="style.css">
   </head>
   <style>
-    body  {
-      background-image: url("images/concrete.jpg");
-      background-color: #cccccc;
-    }
+   
 </style>
 
   <body>
     
     <header>
-        <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand bg-info p-1 text-logo text-white" href="#">Joe Schlick</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+        <!-- <div class="container-fluid">
             <div class="row bg-white py-2">
                 <div class ="col-3">
-                    <h2 class="bg-info text-white text-center my-0">Joe Schlick</h2>
+                    
+                        <h2 class="bg-info text-white text-center ">Joe Schlick</h2>
+                   
                 </div> 
                 <div class ="col-5"></div>
                 <div class ="col-4">
@@ -41,23 +60,34 @@
                         <a class="nav-link text-muted" href="contact.html">Contact</a>
                         </li>
                      </ul>
-                </div>
+                </div> -->
 
     </header>
 
     <main>
-        <div class="container">
-            <div class="row"> 
-                <div class="col-6"> 
-                    <h2 class="p-3 mb-2 text-info border-bottom">About Me</h2>
-                    <img src="images/headshot.jpeg" class="img-fluid mt-2 w-90" alt="Headshot">
-                    <p></p>
-                </div> 
-               
+        <div class="container-sm mt-5">
+            <div class="row bg-white"> 
+                <div class="col-12 col-md-4"> 
+                    <h2 class="p-3 mb-2 text-info text-logo2 text-center">About Me</h2>
+                </div>
+                <hr>
+                <div class="row border-top m-0">
+                  <div class="col-4"> 
+                    <img src="images/headshot.jpeg" class="img-fluid mt-4 mx-4 mb-4 w-90" alt="Headshot">
+                  </div>
+                  <div class="col-8 mt-4"> 
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam voluptatibus voluptatum facilis magnam dolorum quia perferendis fuga fugiat, iure, ea assumenda consectetur asperiores quos doloremque totam repellendus veniam ab adipisci!</p>
+                  </div> 
+                </div>
             </div> 
         </div> 
-          
     </main>
+
+    <footer class="footer mb-auto mx-auto py-3 bg-light">
+      <div class="container">
+        <span class="text-muted text-center">Place sticky footer content here.</span>
+      </div>
+    </footer>
 
    <!-- <div class="card border"></div>
                     <h2 class="card-header border-bottom"> About Me </h2> 

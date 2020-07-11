@@ -1,3 +1,16 @@
-h1 {
-    color: yellow;
+body  {
+    background-image: url("images/concrete.jpg");
+    background-color: #cccccc;
+  }
+
+.text-logo {
+    font-size: 40px !important;
+}
+
+.border-top {
+    border-top: 2px solid grey !important;
+}
+
+.text-logo2 {
+    font-size: 50px !important;
 }
