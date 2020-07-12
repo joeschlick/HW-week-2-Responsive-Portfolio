@@ -1,6 +1,8 @@
 body  {
-    background-image: url("images/concrete.jpg");
-    background-color: #cccccc;
+    background-image: url("images/ocean1.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
   }
 
 .text-logo {
@@ -14,3 +16,19 @@ body  {
 .text-logo2 {
     font-size: 50px !important;
 }
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-top: turquoise solid 4px;
+    padding-top: 20px;
+  }
+
+  .container {
+      width: 60%;
+  }
