@@ -1,8 +1,7 @@
+/* Global CSS */
 body  {
     background-image: url("images/cool-background.png");
     background-size: 200%;
-    
-
   }
 
 .text-logo {
@@ -11,10 +10,6 @@ body  {
 
 .border-top {
     border-top: 2px solid grey !important;
-}
-
-.text-logo2 {
-    font-size: 50px !important;
 }
 
 .footer {
@@ -29,6 +24,20 @@ body  {
     padding-top: 20px;
   }
 
+/* Index (About) CSS */
+.text-logo2 {
+    font-size: 50px !important;
+}
+
+/* portfolio CSS */
+.img1 {
+    position: relative;
+}
+
+
+
+
+/* contact CSS */
   .container {
       width: 60%;
   }
