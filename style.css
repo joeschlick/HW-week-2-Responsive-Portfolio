@@ -2,42 +2,46 @@
 body  {
     background-image: url("images/cool-background.png");
     background-size: 200%;
+    margin-bottom: 200px;
   }
-
+/* Navbar name text size */
 .text-logo {
     font-size: 40px !important;
 }
+/* Content container size */
+.container {
+    width: 80%;
+}
 
+/* Content h2 text size */
+.text-logo2 {
+    font-size: 50px !important;
+}
+
+/* Border below h2 */
 .border-top {
     border-top: 2px solid grey !important;
 }
 
+/* Sticky footer */
 .footer {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #6c757d;
-    color: black;
     text-align: center;
     border-top: turquoise solid 4px;
-    padding-top: 20px;
   }
-
-/* Index (About) CSS */
-.text-logo2 {
-    font-size: 50px !important;
-}
-
-/* portfolio CSS */
+  
+/* Portfolio CSS - image/button positioning */
 .img1 {
     position: relative;
 }
 
-
-
-
-/* contact CSS */
-  .container {
-      width: 60%;
-  }
+.btn1 {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
