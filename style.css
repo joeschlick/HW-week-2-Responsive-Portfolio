@@ -45,3 +45,17 @@ body  {
     transform: translate(-50%, -50%);
     color: white;
 }
+.btn2 {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+
+
+
+.info {
+    width: 80%;
+    text-align: center;
+}
